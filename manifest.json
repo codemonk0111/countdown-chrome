@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Countdown",
+  "description": "Motivate yourself to utilize maximum available time",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "assets/images/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
